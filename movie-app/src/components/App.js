@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Nav from './Nav'
 
 function App() {
   return (
     <div className="App">
-        <h1>Movie Finder</h1>
+        <Nav/>
     </div>
   );
 }
